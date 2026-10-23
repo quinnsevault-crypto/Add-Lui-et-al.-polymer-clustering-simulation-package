@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "approximate": true,
+  "method": "operator-split binomial/Poisson tau-leaping for signal binding, polymer binding and diffusion; coarse cluster movement",
+  "tau_leap_au": 100.0,
+  "max_time_au": 30000.0,
+  "sample_interval_au": 1000.0,
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1011,
+    1213,
+    1415,
+    1617,
+    1819,
+    2021
+  ],
+  "strains": [
+    "MM32",
+    "BB170"
+  ],
+  "conditions": "no-polymer control and P1/P2/P3 at 7,000 a.u. for each strain",
+  "unique_replicates": 80,
+  "polymer_units_per_agent": 100.0,
+  "polymer_concentration_mapping_is_assumption": true,
+  "interpretation": "Exploratory tau-leap ensemble; not exact direct-Gillespie or full concentration-series reproduction."
+}
